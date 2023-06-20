@@ -5,11 +5,11 @@ theme: just-the-docs
 url: https://ingaschoeyen.github.io/trial
 
 aux_links:
-  Repository: https://github.com/ingaschoeyen/BrainyControl2
+  Repository: https://github.com/ingaschoeyen/trial
 
 back_to_top: true
 back_to_top_text: "Back to top"
 
 logo: "docs/assets/images/slack_logo2B.png"
-favicon_ico: "docs/assets/images/slack_logo2B.ico"
+
 
