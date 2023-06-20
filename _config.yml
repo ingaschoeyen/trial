@@ -4,6 +4,9 @@ theme: just-the-docs
 
 url: https://ingaschoeyen.github.io/trial
 
+aux_links:
+  Repository: https://github.com/ingaschoeyen/BrainyControl2
+
 back_to_top: true
 back_to_top_text: "Back to top"
 
