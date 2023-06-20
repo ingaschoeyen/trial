@@ -18,6 +18,13 @@ nav_order: 2
 </details>
 
 ---
+# Established Understanding 
+
+<details open markdown="block">
+  <summary>
+  Anatomical Subdivisions
+  </summary>
+
 ## Midbrain
 
 ## Tectum
@@ -26,18 +33,19 @@ nav_order: 2
 
 ## Pons
 
-### Sensory Nuclei
-
-### Motor Nuclei
-
-### Pontine Reticular Formation
-
 ## Medulla
 
 ### Inferior Olive
 
-### Pyramidal Tracts
 
-### Medullar Reticular Formation
+</details>
+ 
+<details open markdown="block">
+
+  <summary>
+  Functional Organisation
+  </summary>
 
 
+
+</details>

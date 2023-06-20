@@ -14,8 +14,8 @@ async function get_entries(){
       }
 }
 
-function sort_items(){
-    const items = get_entries();
+async function sort_items(){
+    const items = await get_entries();
     console.log('items queried');
     console.log(items);
     var itemsArray = Object.entries(items);
@@ -30,8 +30,9 @@ function sort_items(){
   }
   
 
-function create_gloss_display(){
-    let items = sort_items();
+async function create_gloss_display(){
+    let items = await sort_items();
+    console.log('create display function called');
     var gloss_div = document.getElementById('items');
     for (glossID in items){
         let item_div = document.createElement('div');

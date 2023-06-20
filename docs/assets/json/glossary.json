@@ -1,13 +1,13 @@
 {
     "corollarydischarge":{
         "title": "Corollary Discharge",
-        "definition": "",
+        "definition": "A top-down signal that is encoded to cancel out expected afferent information",
         "related":["efferencecopy"]
 
     },
     "efferencecopy":{
         "title": "Efference Copy",
-        "definition":"",
+        "definition":"A copy of a descending signal, that is used by forward models to predict the outcome of a motor command.",
         "related":["corollarydischarge"]
     }
 }
