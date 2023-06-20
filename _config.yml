@@ -7,6 +7,6 @@ url: https://ingaschoeyen.github.io/trial
 back_to_top: true
 back_to_top_text: "Back to top"
 
-logo: "/docs/assets/images/slack_logo2B.png"
-favicon_ico: "/docs/assets/images/slack_logo2B.ico"
+logo: "docs/assets/images/slack_logo2B.png"
+favicon_ico: "docs/assets/images/slack_logo2B.ico"
 
