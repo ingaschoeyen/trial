@@ -12,7 +12,7 @@ permalink: /docs/NeuralStructures
 
 <details open markdown="block">
   <summary>
-    Table of contents
+    Page Outline
   </summary>
   {: .text-delta }
 - TOC
