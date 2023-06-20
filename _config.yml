@@ -1,8 +1,12 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Brainy Control
+description: A Dynamic Literature Review Repository
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://ingaschoeyen.github.io/trial
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+back_to_top: true
+back_to_top_text: "Back to top"
+
+logo: "/docs/assets/images/slack_logo2B.png"
+favicon_ico: "/docs/assets/images/slack_logo2B.ico"
+
