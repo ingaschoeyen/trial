@@ -1,4 +1,4 @@
-var filepath = '/../json/glossary.json';
+var filepath = '../json/glossary.json';
 
 
 async function get_entries(){
@@ -14,9 +14,10 @@ async function get_entries(){
       }
 }
 
-async function sort_items(){
-    const items = await get_entries();
+function sort_items(){
+    const items = get_entries();
     console.log('items queried');
+    console.log(items);
     var itemsArray = Object.entries(items);
     itemsArray.sort(function(a, b) {
     var uniqueIdA = a[0];
