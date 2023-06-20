@@ -27,7 +27,7 @@ async function sort_references(){
       return referenceB.year - referenceA.year;
       }
       else{
-        return referenceB.month - referenceB.month;
+        return referenceB.month - referenceA.month;
       }
     });
   }
