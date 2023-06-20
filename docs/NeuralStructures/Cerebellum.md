@@ -5,22 +5,35 @@ parent: Neural Structures
 nav_order: 3
 ---
 
-### The Cerebellum
+# The Cerebellum
+{: .no_toc}
 
+<details open markdown="block">
+  <summary>
+    Page Outline
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
+---
+
+# Established 
+
+<details open markdown="block">
+</details>
+ 
 ## Cerebellar Cortex
 
-# Vermis
+## Cerebellar Nuclei
 
-# Flocculonodular Lobe
-
-## Deep Cerebellar Nuclei
-
-# Dentate Nucleus
-
-# Interposed Nucleus
+# New Insights
 
 ## Structural Features of the Cerebellum
 
 ## Functional Features of the Cerebellum
+
+## Open Questions
 
 ### References
