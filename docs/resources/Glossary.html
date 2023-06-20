@@ -1,0 +1,31 @@
+---
+layout: default
+title: Glossary
+parent: Resources
+nav_order: 2
+---
+
+<html lan="en">
+  <head>
+    <title>Glossary</title>
+    <style type="text/css">
+      html,
+      body,
+      #items{
+        width:auto;
+      }
+    </style>
+  </head>
+  <body onload="load_items">
+    <div id="items">
+    </div>
+    <script src="../assets/js/glossary.js"></script>
+    <script>
+      function load_items(){
+        document.getElementById('items').innerHTML = "";
+        create_gloss_display();
+        }
+    </script>
+  </body>
+</html>
+  

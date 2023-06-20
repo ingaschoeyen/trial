@@ -1,0 +1,59 @@
+---
+layout: default
+title: References
+parent: Resources
+nav_order: 3
+---
+
+<html lang="en">
+  
+  <head>
+    <style type="text/css">
+      #references-container{
+        width: auto;
+        display: flex;
+        flex-flow: column;
+        max-height: 70vh;
+        overflow-y: auto;
+      }
+      .references{
+        margin: auto;
+        padding-top: 5px;
+        padding-left: 3px;
+        text-align: left;
+      }
+      .ref_title{
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+      .ref_content{
+        font-size: 0.8em;
+      }
+      #Search{
+        float: right;
+      }
+    </style>
+  </head>
+  <body onload="load_refs()">
+    <h1> References</h1>
+    <label for="sort-op">Select Sort Option </label>
+    <select id="sort_opt" onchange="load_refs()">
+      <option disabled> Choose a Sort Option</option>
+      <option value="year"> By Year</option>
+      <option value="alphabetic" selected> By Name</option>
+      <option value="structure"> By Structure</option>
+    </select>
+    <input type="text" id="Search" onkeyup="searchRefs()" placeholder="Search for reference ...">
+
+    <div id="references-container">
+      <p> dummy text </p>
+    </div>
+    <script src="../assets/js/refs_rep.js"></script>
+    <script type="text/javascript">
+      function load_refs(){
+        document.getElementById('references-container').innerHTML = "";
+        create_ref_display();
+        }
+    </script>
+  </body>
+</html>

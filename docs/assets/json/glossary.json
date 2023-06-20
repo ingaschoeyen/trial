@@ -1,0 +1,13 @@
+{
+    "corollarydischarge":{
+        "title": "Corollary Discharge",
+        "definition": "",
+        "related":["efferencecopy"]
+
+    },
+    "efferencecopy":{
+        "title": "Efference Copy",
+        "definition":"",
+        "related":["corollarydischarge"]
+    }
+}
