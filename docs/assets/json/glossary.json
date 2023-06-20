@@ -8,6 +8,6 @@
     "efferencecopy":{
         "title": "Efference Copy",
         "definition":"A copy of a descending signal, that is used by forward models to predict the outcome of a motor command.",
-        "related":["corollarydischarge"]
+        "related":["Corollary discharge"]
     }
 }

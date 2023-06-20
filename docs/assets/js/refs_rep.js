@@ -23,7 +23,7 @@ async function sort_references(){
     referencesArray.sort(function(a, b){
       var referenceA = a[1];
       var referenceB = b[1];
-      if(!(referenceA.year==referenceB.year)){
+      if(!(referenceA.year-referenceB.year==0)){
       return referenceB.year - referenceA.year;
       }
       else{

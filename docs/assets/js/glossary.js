@@ -46,9 +46,6 @@ async function create_gloss_display(){
         let rel_con = '';
         items[glossID].related.forEach((element, index)=>{
             rel_con += element;
-            if(!(index = items[gloss_div.related.length])){
-                rel_con += ', ';
-            }
         });
         item_rel.appendChild(document.createTextNode(rel_con));
         item_div.appendChild(item_rel);
