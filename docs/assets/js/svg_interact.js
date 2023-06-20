@@ -3,7 +3,7 @@ var svg = document.getElementById('map_svg');
 var viewbox = svg.getAttribute("viewBox").split(" ");
 var centerX = parseFloat(viewbox[2]) / 2;
 var centerY = parseFloat(viewbox[3]) / 2;
-var matrixGroup = svg.getElementById("map-transform");
+var matrixGroup = svg.getElementById("map_transform");
 
 function zoom_scalar(scale){
     for (var i = 0; i < 4; i++) {
