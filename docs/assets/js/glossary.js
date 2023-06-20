@@ -1,4 +1,4 @@
-var filepath = '../json/glossary.json';
+var filepath = '../assets/json/glossary.json';
 
 
 async function get_entries(){
