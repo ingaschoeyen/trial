@@ -9,9 +9,10 @@ async function get_entries(){
         });
         const entries = await response.json();
         return entries;
-      } catch (error) {
+    } 
+    catch (error) {
         console.error(error);
-      }
+    }
 }
 
 async function sort_items(){
@@ -34,7 +35,7 @@ async function create_gloss_display(){
     let items = await sort_items();
     console.log('create display function called');
     var gloss_div = document.getElementById('items');
-    for (glossID in items){
+    for (let glossID in items){
         let item_div = document.createElement('div');
         item_div.setAttribute('class', 'gloss_item');
         let item_tit = document.createElement('div');
@@ -62,7 +63,7 @@ function searchGloss() {
     var filter = input.value.toLowerCase();
     var nodes = document.getElementsByClassName('gloss');
   
-    for (i = 0; i < nodes.length; i++) {
+    for (let i = 0; i < nodes.length; i++) {
       if (nodes[i].innerText.toLowerCase().includes(filter)) {
         nodes[i].style.display = "block";
       } else {

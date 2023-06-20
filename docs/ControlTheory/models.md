@@ -1,7 +1,7 @@
 layout: default
-title: Models
+title: Modelling Approaches
 parent: Control Theory
-nav_order: 4
+nav_order: 3
 ---
 # Models
 {: .no_toc}
@@ -20,3 +20,5 @@ nav_order: 4
 # Cell Models
 
 # Population Models
+
+# Functional Models
