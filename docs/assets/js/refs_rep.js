@@ -23,7 +23,12 @@ async function sort_references(){
     referencesArray.sort(function(a, b){
       var referenceA = a[1];
       var referenceB = b[1];
+      if(!(referenceA.year==referenceB.year)){
       return referenceB.year - referenceA.year;
+      }
+      else{
+        return referenceB.month - referenceB.month;
+      }
     });
   }
   else if(sort_option_selected==="alphabetic"){
