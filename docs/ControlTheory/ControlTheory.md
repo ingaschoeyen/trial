@@ -11,7 +11,7 @@ permalink: /docs/ControlTheory
 
 <details open markdown="block">
   <summary>
-    Table of contents
+    Page Outline
   </summary>
   {: .text-delta }
 - TOC
@@ -20,6 +20,7 @@ permalink: /docs/ControlTheory
 
 # Concepts from Control Theory
 
+The general aim of combining control theory and motor is to find mathematical formulations that help
 
 
 

@@ -10,7 +10,7 @@ nav_order: 2
 
 <details open markdown="block">
   <summary>
-    Table of contents
+    Page Outline
   </summary>
   {: .text-delta }
 - TOC
