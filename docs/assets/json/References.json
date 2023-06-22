@@ -1,4 +1,417 @@
-{
+{	
+	"arlt2020":{
+		"year": 2020,
+		"month": 3,
+		"id": "http://zotero.org/users/10586214/items/2DPJKGNN",
+		"type": "article-journal",
+		"container-title": "Cell Reports",
+		"DOI": "10.1016/j.celrep.2020.02.009",
+		"ISSN": "22111247",
+		"issue": "9",
+		"journalAbbreviation": "Cell Reports",
+		"language": "en",
+		"page": "3020-3035.e3",
+		"source": "DOI.org (Crossref)",
+		"title": "Microcircuit Rules Governing Impact of Single Interneurons on Purkinje Cell Output In Vivo",
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S2211124720301637",
+		"volume": "30",
+		"author": [
+			{
+				"family": "Arlt",
+				"given": "Charlotte"
+			},
+			{
+				"family": "Häusser",
+				"given": "Michael"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					3
+				]
+			]
+		},
+		"keywords": ["cerebellum", ""]
+	},	
+	"king2023":{
+		"year":2023,
+		"month": 4,
+		"id": "http://zotero.org/users/10586214/items/AL22E2IA",
+		"type": "article-journal",
+		"abstract": "While resting-state fMRI studies have provided a broad picture of the connectivity between human neocortex and cerebellum, the degree of convergence of cortical inputs onto cerebellar circuits remains unknown. Does each cerebellar region receive input from a single cortical area or convergent inputs from multiple cortical areas? Here, we use task-based fMRI data to build a range of cortico-cerebellar connectivity models, each allowing for a different degree of convergence. We compared these models by their ability to predict cerebellar activity patterns for novel Task Sets. Models that allow some degree of convergence provided the best predictions, arguing for convergence of multiple cortical inputs onto single cerebellar voxels. Importantly, the degree of convergence varied across the cerebellum with the highest convergence observed in areas linked to language, working memory, and social cognition. These findings suggest important differences in the way that functional subdivisions of the cerebellum support motor and cognitive function.",
+		"container-title": "eLife",
+		"DOI": "10.7554/eLife.81511",
+		"ISSN": "2050-084X",
+		"note": "publisher: eLife Sciences Publications, Ltd",
+		"page": "e81511",
+		"source": "eLife",
+		"title": "A task-general connectivity model reveals variation in convergence of cortical inputs to functional regions of the cerebellum",
+		"URL": "https://doi.org/10.7554/eLife.81511",
+		"volume": "12",
+		"author": [
+			{
+				"family": "King",
+				"given": "Maedbh"
+			},
+			{
+				"family": "Shahshahani",
+				"given": "Ladan"
+			},
+			{
+				"family": "Ivry",
+				"given": "Richard B"
+			},
+			{
+				"family": "Diedrichsen",
+				"given": "Jörn"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					21
+				]
+			]
+		},
+		"keywords":["cerebellum", "corticocerebellar", "topographic"]
+	},	
+	"halverson2022":{
+		"year": 2022,
+		"month": 12,
+		"id": "http://zotero.org/users/10586214/items/4QRYNLLP",
+		"type": "article-journal",
+		"abstract": "The function of a feedback inhibitory circuit between cerebellar Purkinje cells and molecular layer interneurons (MLIs) was defined by combining optogenetics, neuronal activity recordings both in cerebellar slices and in vivo, and computational modeling. Purkinje cells inhibit a subset of MLIs in the inner third of the molecular layer. This inhibition is non-reciprocal, short-range (less than 200 μm) and is based on convergence of one to two Purkinje cells onto MLIs. During learning-related eyelid movements in vivo, the activity of a subset of MLIs progressively increases as Purkinje cell activity decreases, with Purkinje cells usually leading the MLIs. Computer simulations indicate that these relationships are best explained by the feedback circuit from Purkinje cells to MLIs and that this feedback circuit plays a central role in making cerebellar learning efficient.",
+		"container-title": "eLife",
+		"DOI": "10.7554/eLife.77603",
+		"ISSN": "2050-084X",
+		"note": "publisher: eLife Sciences Publications, Ltd",
+		"page": "e77603",
+		"source": "eLife",
+		"title": "Feedback inhibition underlies new computational functions of cerebellar interneurons",
+		"URL": "https://doi.org/10.7554/eLife.77603",
+		"volume": "11",
+		"author": [
+			{
+				"family": "Halverson",
+				"given": "Hunter E"
+			},
+			{
+				"family": "Kim",
+				"given": "Jinsook"
+			},
+			{
+				"family": "Khilkevich",
+				"given": "Andrei"
+			},
+			{
+				"family": "Mauk",
+				"given": "Michael D"
+			},
+			{
+				"family": "Augustine",
+				"given": "George J"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					12,
+					8
+				]
+			]
+		},
+		"keywords":["cerebellum", "interneuron", "inhibition", "feedback"]
+	},
+	"inagaki2022":{
+		"year": 2022,
+		"month": 3,
+		"id": "http://zotero.org/users/10586214/items/C787QGIK",
+		"type": "article-journal",
+		"abstract": "Motor behaviors are often planned long before execution but only released after specific sensory events. Planning and execution are each associated with distinct patterns of motor cortex activity. Key questions are how these dynamic activity patterns are generated and how they relate to behavior. Here, we investigate the multi-regional neural circuits that link an auditory “Go cue” and the transition from planning to execution of directional licking. Ascending glutamatergic neurons in the midbrain reticular and pedunculopontine nuclei show short latency and phasic changes in spike rate that are selective for the Go cue. This signal is transmitted via the thalamus to the motor cortex, where it triggers a rapid reorganization of motor cortex state from planning-related activity to a motor command, which in turn drives appropriate movement. Our studies show how midbrain can control cortical dynamics via the thalamus for rapid and precise motor behavior.",
+		"container-title": "Cell",
+		"DOI": "10.1016/j.cell.2022.02.006",
+		"ISSN": "0092-8674",
+		"issue": "6",
+		"journalAbbreviation": "Cell",
+		"language": "en",
+		"page": "1065-1081.e23",
+		"source": "ScienceDirect",
+		"title": "A midbrain-thalamus-cortex circuit reorganizes cortical dynamics to initiate movement",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0092867422001465",
+		"volume": "185",
+		"author": [
+			{
+				"family": "Inagaki",
+				"given": "Hidehiko K."
+			},
+			{
+				"family": "Chen",
+				"given": "Susu"
+			},
+			{
+				"family": "Ridder",
+				"given": "Margreet C."
+			},
+			{
+				"family": "Sah",
+				"given": "Pankaj"
+			},
+			{
+				"family": "Li",
+				"given": "Nuo"
+			},
+			{
+				"family": "Yang",
+				"given": "Zidan"
+			},
+			{
+				"family": "Hasanbegovic",
+				"given": "Hana"
+			},
+			{
+				"family": "Gao",
+				"given": "Zhenyu"
+			},
+			{
+				"family": "Gerfen",
+				"given": "Charles R."
+			},
+			{
+				"family": "Svoboda",
+				"given": "Karel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					17
+				]
+			]
+		},
+		"keywords":["thalamus", "thalamocortical", "motor control"]
+	},
+	"wang2021":{
+		"year":2021,
+		"month": 2,
+		"id": "http://zotero.org/users/10586214/items/XB92K42X",
+		"type": "article",
+		"abstract": "Most studies investigating the impact of cerebral cortex (CC) onto the cerebellum highlight the role of the pontine mossy fibre system. However, cerebro-cerebellar communication may also be mediated by the olivary climbing fibres via a hub in the mesodiencephalic junction (MDJ). Here, we show that rostromedial and caudal parts of mouse CC predominantly project to the principal olive via the rostroventral MDJ and that more rostrolateral CC regions prominently project to the rostral medial accessory olive via the caudodorsal MDJ. Moreover, transneuronal tracing results show that the cerebellar nuclei innervate the olivary-projecting neurons in the MDJ that receive input from CC, and that they adhere to the same topographical relations. By unravelling these topographic and dense, mono- and disynaptic projections from the CC through the MDJ and inferior olive to the cerebellum, this work establishes that cerebro-cerebellar communication can be mediated by both the mossy fibre and climbing fibre system.",
+		"DOI": "10.1101/2021.02.23.432495",
+		"language": "en",
+		"license": "© 2021, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at http://creativecommons.org/licenses/by-nc-nd/4.0/",
+		"note": "page: 2021.02.23.432495\nsection: New Results",
+		"publisher": "bioRxiv",
+		"source": "bioRxiv",
+		"title": "The Mesodiencephalic Junction as a Central Hub for Cerebro-Cerebellar Communication",
+		"URL": "https://www.biorxiv.org/content/10.1101/2021.02.23.432495v1",
+		"author": [
+			{
+				"family": "Wang",
+				"given": "Xiaolu"
+			},
+			{
+				"family": "Novello",
+				"given": "Manuele"
+			},
+			{
+				"family": "Gao",
+				"given": "Zhenyu"
+			},
+			{
+				"family": "Ruigrok",
+				"given": "Tom J. H."
+			},
+			{
+				"family": "Zeeuw",
+				"given": "Chris I. De"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					2,
+					23
+				]
+			]
+		},
+		"keywords":["cerebellum", "corticocerebellar", "mdj", "tracing"]
+	},
+	"zhou2014":{
+		"year": 2014,
+		"month": 5,
+		"id": "http://zotero.org/users/10586214/items/G973NUPH",
+		"type": "article-journal",
+		"abstract": "Due to the uniform cyto-architecture of the cerebellar cortex, its overall physiological characteristics have traditionally been considered to be homogeneous. In this study, we show in awake mice at rest that spiking activity of Purkinje cells, the sole output cells of the cerebellar cortex, differs between cerebellar modules and correlates with their expression of the glycolytic enzyme aldolase C or zebrin. Simple spike and complex spike frequencies were significantly higher in Purkinje cells located in zebrin-negative than zebrin-positive modules. The difference in simple spike frequency persisted when the synaptic input to, but not intrinsic activity of, Purkinje cells was manipulated. Blocking TRPC3, the effector channel of a cascade of proteins that have zebrin-like distribution patterns, attenuated the simple spike frequency difference. Our results indicate that zebrin-discriminated cerebellar modules operate at different frequencies, which depend on activation of TRPC3, and that this property is relevant for all cerebellar functions.",
+		"container-title": "eLife",
+		"DOI": "10.7554/eLife.02536",
+		"ISSN": "2050-084X",
+		"note": "publisher: eLife Sciences Publications, Ltd",
+		"page": "e02536",
+		"source": "eLife",
+		"title": "Cerebellar modules operate at different frequencies",
+		"URL": "https://doi.org/10.7554/eLife.02536",
+		"volume": "3",
+		"author": [
+			{
+				"family": "Zhou",
+				"given": "Haibo"
+			},
+			{
+				"family": "Lin",
+				"given": "Zhanmin"
+			},
+			{
+				"family": "Voges",
+				"given": "Kai"
+			},
+			{
+				"family": "Ju",
+				"given": "Chiheng"
+			},
+			{
+				"family": "Gao",
+				"given": "Zhenyu"
+			},
+			{
+				"family": "Bosman",
+				"given": "Laurens WJ"
+			},
+			{
+				"family": "Ruigrok",
+				"given": "Tom JH"
+			},
+			{
+				"family": "Hoebeek",
+				"given": "Freek E"
+			},
+			{
+				"family": "De Zeeuw",
+				"given": "Chris I"
+			},
+			{
+				"family": "Schonewille",
+				"given": "Martijn"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					5,
+					7
+				]
+			]
+		},
+		"keywords":["cerebellum", "purkinje", "neuronal dynamics", "tracing"]
+	},
+	"ronzano2022":{
+		"year":2022,
+		"month":12,
+		"id": "http://zotero.org/users/10586214/items/VMXMZRXD",
+		"type": "article-journal",
+		"abstract": "Elaborate behaviours are produced by tightly controlled flexor-extensor motor neuron activation patterns. Motor neurons are regulated by a network of interneurons within the spinal cord, but the computational processes involved in motor control are not fully understood. The neuroanatomical arrangement of motor and premotor neurons into topographic patterns related to their controlled muscles is thought to facilitate how information is processed by spinal circuits. Rabies retrograde monosynaptic tracing has been used to label premotor interneurons innervating specific motor neuron pools, with previous studies reporting topographic mediolateral positional biases in flexor and extensor premotor interneurons. To more precisely define how premotor interneurons contacting specific motor pools are organized, we used multiple complementary viral-tracing approaches in mice to minimize systematic biases associated with each method. Contrary to expectations, we found that premotor interneurons contacting motor pools controlling flexion and extension of the ankle are highly intermingled rather than segregated into specific domains like motor neurons. Thus, premotor spinal neurons controlling different muscles process motor instructions in the absence of clear spatial patterns among the flexor-extensor circuit components.",
+		"container-title": "eLife",
+		"DOI": "10.7554/eLife.81976",
+		"ISSN": "2050-084X",
+		"note": "publisher: eLife Sciences Publications, Ltd",
+		"page": "e81976",
+		"source": "eLife",
+		"title": "Spinal premotor interneurons controlling antagonistic muscles are spatially intermingled",
+		"URL": "https://doi.org/10.7554/eLife.81976",
+		"volume": "11",
+		"author": [
+			{
+				"family": "Ronzano",
+				"given": "Remi"
+			},
+			{
+				"family": "Skarlatou",
+				"given": "Sophie"
+			},
+			{
+				"family": "Barriga",
+				"given": "Bianca K"
+			},
+			{
+				"family": "Bannatyne",
+				"given": "B Anne"
+			},
+			{
+				"family": "Bhumbra",
+				"given": "Gardave Singh"
+			},
+			{
+				"family": "Foster",
+				"given": "Joshua D"
+			},
+			{
+				"family": "Moore",
+				"given": "Jeffrey D"
+			},
+			{
+				"family": "Lancelin",
+				"given": "Camille"
+			},
+			{
+				"family": "Pocratsky",
+				"given": "Amanda M"
+			},
+			{
+				"family": "Özyurt",
+				"given": "Mustafa Görkem"
+			},
+			{
+				"family": "Smith",
+				"given": "Calvin Chad"
+			},
+			{
+				"family": "Todd",
+				"given": "Andrew J"
+			},
+			{
+				"family": "Maxwell",
+				"given": "David J"
+			},
+			{
+				"family": "Murray",
+				"given": "Andrew J"
+			},
+			{
+				"family": "Pfaff",
+				"given": "Samuel L"
+			},
+			{
+				"family": "Brownstone",
+				"given": "Robert M"
+			},
+			{
+				"family": "Zampieri",
+				"given": "Niccolò"
+			},
+			{
+				"family": "Beato",
+				"given": "Marco"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					12,
+					13
+				]
+			]
+		},
+		"keywords":["spinal cord", "premotor", "topographic", "tracing", "motor units"]
+	},
 	"sokolov2017":{
 		"year": 2017,
 		"month": 5,

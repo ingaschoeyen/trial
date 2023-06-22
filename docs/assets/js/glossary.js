@@ -54,7 +54,7 @@ async function create_gloss_display(){
         item_con.setAttribute('class', 'gloss_con');
         item_con.appendChild(document.createTextNode(items[glossID].description));
         item_div.appendChild(item_con);
-        gloss_div.appendChild();
+        gloss_div.appendChild(item_div);
     }
 }
 
