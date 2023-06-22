@@ -19,10 +19,10 @@ async function query_refs(){
       }
 }
 
-function sort_nodes(){
+async function sort_nodes(){
     let sorted_nodes = [];
     let formatted_nodes = [];
-    let refs = query_refs();
+    let refs = await query_refs();
     // get list of unique keywords, but exclude specific keywords
     let keyword_list = [];
     let excluded_keywords = ["review", "chapter", "textbook"];
@@ -52,10 +52,10 @@ function sort_nodes(){
 }
 
 
-function load_network(){
+async function load_network(){
     var network_div = document.getElementById('network');
     console.log('load network called');
-    const nodes_out = get_nodes();
+    const nodes_out = await sort_nodes();
     let node_pairs = nodes_out.node_pairs;
     let node_formats = nodes_out.node_format;
     Highcharts,chart(
