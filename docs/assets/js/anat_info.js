@@ -32,7 +32,7 @@ async function format_content(obj_id){
 
 async function anat_info(obj_id){
   let info_div = document.getElementById('info_content');
-  let param_div = document.getElementById('param_div');
+  let param_div = document.getElementById('param_content');
   info_div.innerHTML = '';
   param_div.innerHTML = '';
   console.log('anat_info_called');
