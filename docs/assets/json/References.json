@@ -1,4 +1,75 @@
-{	
+{	"hayhoe2017":{
+	"year": 2017,
+	"month": 7,
+	"id": "http://zotero.org/users/10586214/items/N9KC86Y4",
+	"type": "article-journal",
+	"abstract": "Investigation of natural behavior has contributed a number of insights to our understanding of visual guidance of actions by highlighting the importance of behavioral goals and focusing attention on how vision and action play out in time. In this context, humans make continuous sequences of sensory-motor decisions to satisfy current behavioral goals, and the role of vision is to provide the relevant information for making good decisions in order to achieve those goals. This conceptualization of visually guided actions as a sequence of sensory-motor decisions has been formalized within the framework of statistical decision theory, which structures the problem and provides the context for much recent progress in vision and action. Components of a good decision include the task, which defines the behavioral goals, the rewards and costs associated with those goals, uncertainty about the state of the world, and prior knowledge.",
+	"container-title": "Annual Review of Vision Science",
+	"DOI": "10.1146/annurev-vision-102016-061437",
+	"issue": "1",
+	"note": "_eprint: https://doi.org/10.1146/annurev-vision-102016-061437\nPMID: 28715958",
+	"page": "389-413",
+	"source": "Annual Reviews",
+	"title": "Vision and Action",
+	"URL": "https://doi.org/10.1146/annurev-vision-102016-061437",
+	"volume": "3",
+	"author": [
+		{
+			"family": "Hayhoe",
+			"given": "Mary M."
+		}
+	],
+	"issued": {
+		"date-parts": [
+			[
+				"2017"
+			]
+		]
+	},
+	"keywords":["vision", "spaces", "review"]
+},
+	"spampinato2017":{
+	"year":2017,
+	"month": 3,
+	"id": "http://zotero.org/users/10586214/items/K3YFUCLU",
+	"type": "article-journal",
+	"abstract": "One of the functions of the cerebellum in motor learning is to predict and account for systematic changes to the body or environment. This form of adaptive learning is mediated by plastic changes occurring within the cerebellar cortex. The strength of cerebellar-to-cerebral pathways for a given muscle may reflect aspects of cerebellum-dependent motor adaptation. These connections with motor cortex (M1) can be estimated as cerebellar inhibition (CBI): a conditioning pulse of transcranial magnetic stimulation delivered to the cerebellum before a test pulse over motor cortex. Previously, we have demonstrated that changes in CBI for a given muscle representation correlate with learning a motor adaptation task with the involved limb. However, the specificity of these effects is unknown. Here, we investigated whether CBI changes in humans are somatotopy specific and how they relate to motor adaptation. We found that learning a visuomotor rotation task with the right hand changed CBI, not only for the involved first dorsal interosseous of the right hand, but also for an uninvolved right leg muscle, the tibialis anterior, likely related to inter-effector transfer of learning. In two follow-up experiments, we investigated whether the preparation of a simple hand or leg movement would produce a somatotopy-specific modulation of CBI. We found that CBI changes only for the effector involved in the movement. These results indicate that learning-related changes in cerebellar–M1 connectivity reflect a somatotopy-specific interaction. Modulation of this pathway is also present in the context of interlimb transfer of learning., SIGNIFICANCE STATEMENT Connectivity between the cerebellum and motor cortex is a critical pathway for the integrity of everyday movements and understanding the somatotopic specificity of this pathway in the context of motor learning is critical to advancing the efficacy of neurorehabilitation. We found that adaptive learning with the hand affects cerebellar–motor cortex connectivity, not only for the trained hand, but also for an untrained leg muscle, an effect likely related to intereffector transfer of learning. Furthermore, we introduce a novel method to measure cerebellar–motor cortex connectivity during movement preparation. With this technique, we show that, outside the context of learning, modulation of cerebellar–motor cortex connectivity is somatotopically specific to the effector being moved.",
+	"container-title": "The Journal of Neuroscience",
+	"DOI": "10.1523/JNEUROSCI.2511-16.2017",
+	"ISSN": "0270-6474",
+	"issue": "9",
+	"journalAbbreviation": "J Neurosci",
+	"note": "PMID: 28137969\nPMCID: PMC5354349",
+	"page": "2377-2386",
+	"source": "PubMed Central",
+	"title": "Cerebellar–M1 Connectivity Changes Associated with Motor Learning Are Somatotopic Specific",
+	"URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5354349/",
+	"volume": "37",
+	"author": [
+		{
+			"family": "Spampinato",
+			"given": "Danny A."
+		},
+		{
+			"family": "Block",
+			"given": "Hannah J."
+		},
+		{
+			"family": "Celnik",
+			"given": "Pablo A."
+		}
+	],
+	"issued": {
+		"date-parts": [
+			[
+				"2017",
+				3,
+				1
+			]
+		]
+	},
+	"keywords":["cerebellum", "m1", "somatotopic", "connectivity"]
+},
 	"arlt2020":{
 		"year": 2020,
 		"month": 3,
