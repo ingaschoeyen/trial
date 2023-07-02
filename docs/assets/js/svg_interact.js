@@ -1,3 +1,4 @@
+// transformMatrix = [a b c d e f]
 var transformMatrix = [1, 0, 0, 1, 0, 0];
 var svg = document.getElementById('map_svg');
 var viewbox = svg.getAttribute("viewBox").split(" ");
@@ -6,9 +7,8 @@ var centerY = parseFloat(viewbox[3]) / 2;
 var matrixGroup = svg.getElementById("map_transform");
 
 function zoom_scalar(scale){
-    for (var i = 0; i < 4; i++) {
-            transformMatrix[i] *= scale;
-    }
+    transformMatrix[0] = scale;
+    transformMatrix[3] = scale;
     transformMatrix[4] += (1 - scale) * centerX;
     transformMatrix[5] += (1 - scale) * centerY;
                             
@@ -105,4 +105,31 @@ function makeDraggable(evt) {
     function endDrag(evt) {
             selectedElement = false;
     }
+}
+
+var options = document.getElementsByClassName('map_options');
+
+options.array.forEach(element => {
+        element.addEventListener('onclick', map_options(this.id));
+});
+
+// current buttons
+
+
+function map_options(option_id){
+        // take in option id and adjust map visibilities accordingly
+
+}
+
+let prev_element = doucment.getElementById();
+
+function svg_click(obj_id){
+        prev_element.setAttribute();
+        // fetch elements
+        let element = document.getElementById(obj_id);
+        let element_connections = document.getElementById(obj_id+'_connections');
+        // adjust element visibility
+        element.setAttribute();
+        element_connections.setAttribute('visibility', 'visible');
+        prev_element = element;
 }

@@ -1,4 +1,178 @@
-{	"hayhoe2017":{
+{	"levine2014":{
+	"year":2014,
+	"month":4,
+	"id": "http://zotero.org/users/10586214/items/CSMEAIDV",
+	"type": "article-journal",
+	"abstract": "In this study, the authors identify a population of deep dorsal horn interneurons that receive inputs from both sensory neurons and the descending motor tracts and that can evoke activity from functionally related motor pools. These cells may represent the central node for coordinating motor output programs in the spinal cord.",
+	"container-title": "Nature Neuroscience",
+	"DOI": "10.1038/nn.3675",
+	"ISSN": "1546-1726",
+	"issue": "4",
+	"journalAbbreviation": "Nat Neurosci",
+	"language": "en",
+	"license": "2014 Springer Nature America, Inc.",
+	"note": "number: 4\npublisher: Nature Publishing Group",
+	"page": "586-593",
+	"source": "www.nature.com",
+	"title": "Identification of a cellular node for motor control pathways",
+	"URL": "https://www.nature.com/articles/nn.3675",
+	"volume": "17",
+	"author": [
+		{
+			"family": "Levine",
+			"given": "Ariel J."
+		},
+		{
+			"family": "Hinckley",
+			"given": "Christopher A."
+		},
+		{
+			"family": "Hilde",
+			"given": "Kathryn L."
+		},
+		{
+			"family": "Driscoll",
+			"given": "Shawn P."
+		},
+		{
+			"family": "Poon",
+			"given": "Tiffany H."
+		},
+		{
+			"family": "Montgomery",
+			"given": "Jessica M."
+		},
+		{
+			"family": "Pfaff",
+			"given": "Samuel L."
+		}
+	],
+	"issued": {
+		"date-parts": [
+			[
+				"2014",
+				4
+			]
+		]
+	},
+	"keywords":["synergies", "motor control", "spinal cord", "neuronal dynamics"]
+	},
+	"logiaco2021":{
+		"year": 2021,
+		"month": 6,
+		"id": "http://zotero.org/users/10586214/items/DIK55HBP",
+		"type": "article-journal",
+		"abstract": "The neural mechanisms that generate an extensible library of motor motifs and flexibly string them into arbitrary sequences are unclear. We developed a model in which inhibitory basal ganglia output neurons project to thalamic units that are themselves bidirectionally connected to a recurrent cortical network. We model the basal ganglia inhibitory patterns as silencing some thalamic neurons while leaving others disinhibited and free to interact with cortex during specific motifs. We show that a small number of disinhibited thalamic neurons can control cortical dynamics to generate specific motor output in a noise-robust way. Additionally, a single “preparatory” thalamocortical network can produce fast cortical dynamics that support rapid transitions between any pair of learned motifs. If the thalamic units associated with each sequence component are segregated, many motor outputs can be learned without interference and then combined in arbitrary orders for the flexible production of long and complex motor sequences.",
+		"container-title": "Cell Reports",
+		"DOI": "10.1016/j.celrep.2021.109090",
+		"ISSN": "2211-1247",
+		"issue": "9",
+		"journalAbbreviation": "Cell Reports",
+		"language": "en",
+		"page": "109090",
+		"source": "ScienceDirect",
+		"title": "Thalamic control of cortical dynamics in a model of flexible motor sequencing",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S2211124721004241",
+		"volume": "35",
+		"author": [
+			{
+				"family": "Logiaco",
+				"given": "Laureline"
+			},
+			{
+				"family": "Abbott",
+				"given": "L. F."
+			},
+			{
+				"family": "Escola",
+				"given": "Sean"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					1
+				]
+			]
+		},
+		"keywords":["thalamus", "motor cortex", "modelling", "motor sequence", "dynamic"]
+	},	
+	"arber2018":{
+		"year": 2018,
+		"month": 6,
+		"id": "http://zotero.org/users/10586214/items/5ESY8UDQ",
+		"type": "article-journal",
+		"container-title": "Science",
+		"DOI": "10.1126/science.aat5994",
+		"issue": "6396",
+		"note": "publisher: American Association for the Advancement of Science",
+		"page": "1403-1404",
+		"source": "science.org (Atypon)",
+		"title": "Connecting neuronal circuits for movement",
+		"URL": "https://www.science.org/doi/10.1126/science.aat5994",
+		"volume": "360",
+		"author": [
+			{
+				"family": "Arber",
+				"given": "Silvia"
+			},
+			{
+				"family": "Costa",
+				"given": "Rui M."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					6,
+					29
+				]
+			]
+		},
+		"keywords":["motor control", "connectivity", "review", "cerebellum", "basal ganglia","motor cortex", "brainstem"]
+	},
+	"alstermark2013":{
+		"year":2013,
+		"month": 11,
+		"id": "http://zotero.org/users/10586214/items/GQZKEB38",
+		"type": "article-journal",
+		"abstract": "The lateral reticular nucleus (LRN) is a major precerebellar centre of mossy fibre information to the cerebellum from the spinal cord that is distinct from the direct spinocerebellar paths. The LRN has traditionally been considered to provide the cerebellum with segregated information from several spinal systems controlling posture, reaching, grasping, locomotion, scratching and respiration. However, results are presented that show extensive convergence on a majority of LRN neurons from spinal systems. We propose a new hypothesis suggesting that the LRN may use extensive convergence from the different input systems to provide overview and integration of linked motor components to the cerebellum. This integrated information is sent in parallel with the segregated information from the individual systems to the cerebellum that finally may compare the activity and make necessary adjustments of various motor behaviours.",
+		"container-title": "The Journal of Physiology",
+		"DOI": "10.1113/jphysiol.2013.256669",
+		"ISSN": "1469-7793",
+		"issue": "22",
+		"language": "en",
+		"license": "© 2013 The Authors. The Journal of Physiology © 2013 The Physiological Society",
+		"note": "_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1113/jphysiol.2013.256669",
+		"page": "5453-5458",
+		"source": "Wiley Online Library",
+		"title": "The lateral reticular nucleus: a precerebellar centre providing the cerebellum with overview and integration of motor functions at systems level. A new hypothesis",
+		"title-short": "The lateral reticular nucleus",
+		"URL": "https://onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.2013.256669",
+		"volume": "591",
+		"author": [
+			{
+				"family": "Alstermark",
+				"given": "Bror"
+			},
+			{
+				"family": "Ekerot",
+				"given": "Carl-Fredrik"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2013"
+				]
+			]
+		},
+		"keywords":["lrn", "reticular formation", "cerebellum", "function", "connectivity"]
+	},
+	"hayhoe2017":{
 	"year": 2017,
 	"month": 7,
 	"id": "http://zotero.org/users/10586214/items/N9KC86Y4",
