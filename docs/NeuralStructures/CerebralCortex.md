@@ -6,49 +6,39 @@ nav_order: 5
 ---
 
 # The Cerebral Cortex
+{: .no_toc}
 
-## Cortical subregions and functions
+<details open markdown="block">
+  <summary>
+    Page Outline
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
-### Sensorimotor cortex
+---
 
-The sensorimotor cortex, commonly divided into m1 and s1 
+## Frontal Cortex
 
-Reciprocal connections between s1 and m1 allow for direct integration of sensory feedback.
+### M1
 
-Additionally, s1 differenatially modulated hemispheric m1 activity, one possible mechanism for whole body integration of motor plans focussed on single limbs [^edwards]
+## Parietal Cortex
 
-*add diagram of the interconnections from edwards 2019*
+rostro-caudal axis of state representation in PPC from environment-projected-on-body to body-projected-on-environment [^1]
 
-coherence mediated by cerebellum [^lindeman]
+matches connectivity with connectivity of external vs proprioceptvie modalities, respectively [^2]
 
-### Parietal Cortex
+### S1
 
-### Cingulate Cortex
+## Occipital Cortex
 
-### Frontal Cortex
-
-### Temporal Cortex
-
-## Cortical Networks
-
-### Fronto-parietal attention network
+## Networks
 
 ### Mirror Neuron System
 
+recently found, mirror neuron system emerges from simple hebbian learning rule model [^3]
 
-[^dausilio]
-
-[^hanuschkin]
-
-[^williams]
-
-
-
-
-### References
-
-[^edwards]: Edwards et al. (2019) Putting the "Sensory" into Sensorimotor Control: The Role of Sensorimotor Integration in Goal-Directed Hand Movements after Stroke
-[^dausilio]: D'Ausilio et al. (2015) Grasping synergies: A motor-control approach to the mirror neuron mechanism
-[^hanuschkin]: Hanuschkin et al. (2013) A Hebbian learning rule gives rise to mirror neurons and links them to control theoretic inverse models.
-[^williams]: Williams et al. (2020) A sensorimotor control framework for understanding emotional communication and regulation
-[^lindeman]: Lindeman et al. (2021) Cerebellar Purkinje cells can differentially modulate coherence between sensory and motor cortex depending on region and behavior
+[^1]: Medendorp & Heed (2019) State Estimation in Posterior Parietal Cortex: Distinct Poles of environmental and bodily states
+[^2]: Marek & Greene (2021) Precision Functional Mapping of the Subcortex and Cerebellum
+[^3]: Hanuschkin et al. (2013) A Hebbian Learning Rule Gives Rise to Mirror Neurons and Links Them To Control Theoretic Inverse Models

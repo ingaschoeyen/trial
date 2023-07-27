@@ -11,6 +11,8 @@ nav_order: 4
 
 ### Thalamus
 
+
+
 ## Basal Ganglia
 
 ### Striatum

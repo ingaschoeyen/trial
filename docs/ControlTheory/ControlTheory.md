@@ -20,7 +20,9 @@ permalink: /docs/ControlTheory
 
 # Concepts from Control Theory
 
-The general aim of combining control theory and motor is to find mathematical formulations that help
+## Spaces and Space Transitions
+
+## Control System Architectures
 
 
 

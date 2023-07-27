@@ -34,7 +34,12 @@ Additionally, the motor loops ahve to share information, e.g. orient the racket 
 
 # Spinal Motor Loops
 
+reflex circuits
+
+cpg's
 
 # Subcortical Motor Loops
+
+oculomotor
 
 # Cortical Motor Loops

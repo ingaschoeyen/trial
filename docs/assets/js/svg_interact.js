@@ -109,6 +109,8 @@ function makeDraggable(evt) {
 
 var options = document.getElementsByClassName('map_options');
 
+console.log(options);
+
 options.array.forEach(element => {
         element.addEventListener('onclick', map_options(this.id));
 });
