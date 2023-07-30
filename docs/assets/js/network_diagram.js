@@ -39,7 +39,7 @@ async function sort_nodes(){
         }
     }
     // sorted nodes: [from, to]
-    for (const keyword in keyword_list){
+    for (const keyword of keyword_list){
         for (const ref_id in refs){
             if (keyword in refs[ref_id].keywords){
                 let node_pair = [keyword, ref_id];
