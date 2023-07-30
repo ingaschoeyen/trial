@@ -29,12 +29,12 @@ async function sort_nodes(){
     // create output
     for(ref_id in refs){    
         let ref_format = {id: ref_id, marker:{radius: 10}, color:"#7becb2"};
-        formatted_nodes += ref_format;
+        formatted_nodes.push(ref_format);
         for (const keyword in refs[ref_id].keywords){
             if ((!(keyword in keyword_list)) && (!(keyword in excluded_keywords))){
-                keyword_list += keyword;
+                keyword_list.push(keyword);
                 let keyword_format = {id: keyword, marker:{radius:30}, color: "#E8544E"}
-                formatted_nodes += keyword_format;
+                formatted_nodes.push(keyword_format);
             }
         }
     }
@@ -43,7 +43,7 @@ async function sort_nodes(){
         for (const ref_id in refs){
             if (keyword in refs[ref_id].keywords){
                 let node_pair = [keyword, ref_id];
-                sorted_nodes += node_pair;
+                sorted_nodes.push(node_pair);
             }
         }
     }
