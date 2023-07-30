@@ -13,6 +13,7 @@ function zoom_scalar(scale){
     transformMatrix[5] += (1 - scale) * centerY;
                             
     var newMatrix = "matrix(" +  transformMatrix.join(' ') + ")";
+    console.log(newMatrix);
     matrixGroup.setAttributeNS(null, "transform", newMatrix);
 }
 function pan(dx, dy) {     	
@@ -118,14 +119,14 @@ optionsarray.forEach(element => {
 });
 
 // current buttons
-
+let prev_element = document.getElementById();
 
 function map_options(option_id){
         // take in option id and adjust map visibilities accordingly
 
+
 }
 
-let prev_element = doucment.getElementById();
 
 function svg_click(obj_id){
         prev_element.setAttribute();
