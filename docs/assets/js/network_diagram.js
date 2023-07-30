@@ -58,7 +58,7 @@ async function load_network(){
     const nodes_out = await sort_nodes();
     let node_pairs = nodes_out.node_pairs;
     let node_formats = nodes_out.node_format;
-    Highcharts,chart(
+    Highcharts.chart(
         network_div,
         {
             chart: {
