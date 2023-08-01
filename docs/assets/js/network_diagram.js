@@ -26,6 +26,7 @@ async function sort_nodes(){
     console.log(refs);
     // get list of unique keywords, but exclude specific keywords
     let keyword_list = [];
+    let keyword_count = {};
     let excluded_keywords = ["review", "chapter", "textbook"];
     // create output
     for(ref_id in refs){    
@@ -36,12 +37,32 @@ async function sort_nodes(){
             if (!excluded_keywords.includes(keyword)) { // Check if keyword is in the excluded set
                 if (!keyword_list.includes(keyword)) {
                     keyword_list.push(keyword);
+                    keyword_count[keyword] = 1;
                     let keyword_format = { id: keyword, marker: { radius: 30 }, color: "#E8544E" };
                     formatted_nodes.push(keyword_format);
+                }
+                else{
+                    keyword_count[keyword]++;
                 }
             }
         }
     }
+    // Calculate scaling factor for node size
+    const maxCount = Math.max(...Object.values(keyword_count));
+    const minCount = Math.min(...Object.values(keyword_count));
+    const sizeRange = 20; // You can adjust this value to set the maximum size of the nodes
+    
+    // Adjust the marker size in formatted_nodes based on keyword count
+    for (const keyword of keyword_list) {
+        const count = keyword_count[keyword];
+        const scaledSize = (count - minCount) / (maxCount - minCount) * sizeRange;
+        const keywordNode = formatted_nodes.find(node => node.id === keyword);
+        if (keywordNode) {
+            keywordNode.marker.radius = 5 + scaledSize; // Adjust the radius with base size 10
+        }
+    }
+
+
     // sorted nodes: [from, to]
     for (const keyword of keyword_list){
         for (const ref_id in refs){
