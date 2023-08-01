@@ -34,7 +34,7 @@ async function sort_nodes(){
         let keywords = refs[ref_id].keywords;
         console.log(ref_id + keywords);
         for (const keyword of keywords) {
-            if (!excluded_keywords.has(keyword)) { // Check if keyword is in the excluded set
+            if (!excluded_keywords.includes(keyword)) { // Check if keyword is in the excluded set
                 if (!keyword_list.includes(keyword)) {
                     keyword_list.push(keyword);
                     let keyword_format = { id: keyword, marker: { radius: 30 }, color: "#E8544E" };
