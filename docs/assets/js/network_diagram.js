@@ -58,7 +58,7 @@ async function sort_nodes(){
         const scaledSize = (count - minCount) / (maxCount - minCount) * sizeRange;
         const keywordNode = formatted_nodes.find(node => node.id === keyword);
         if (keywordNode) {
-            keywordNode.marker.radius = 5 + scaledSize; // Adjust the radius with base size 10
+            keywordNode.marker.radius = .5 + scaledSize; // Adjust the radius with base size 10
         }
     }
 
