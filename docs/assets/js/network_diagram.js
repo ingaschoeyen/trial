@@ -54,6 +54,7 @@ async function sort_nodes(){
         }
     }
     console.log('nodes sorted');
+    console.log(formatted_nodes);
     return {node_pairs: sorted_nodes,
         node_format: formatted_nodes}
 }
