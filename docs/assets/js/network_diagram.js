@@ -72,7 +72,10 @@ async function load_network(){
         {
             chart: {
                 type: "networkgraph",
-                marginTop: 20
+                marginTop: 20,
+            },
+            title:{
+                text: undefined
             },
             tooltip: {
 
