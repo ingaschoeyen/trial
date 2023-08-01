@@ -30,7 +30,7 @@ async function sort_nodes(){
     let excluded_keywords = ["review", "chapter", "textbook"];
     // create output
     for(ref_id in refs){    
-        let ref_format = {id: ref_id, marker:{radius: 1}, color:"#7becb2"};
+        let ref_format = {id: ref_id, marker:{radius: 5}, color:"#7becb2"};
         formatted_nodes.push(ref_format);
         let keywords = refs[ref_id].keywords;
         for (const keyword of keywords) {
@@ -58,7 +58,7 @@ async function sort_nodes(){
         const scaledSize = (count - minCount) / (maxCount - minCount) * sizeRange;
         const keywordNode = formatted_nodes.find(node => node.id === keyword);
         if (keywordNode) {
-            keywordNode.marker.radius = .5 + scaledSize; // Adjust the radius with base size 10
+            keywordNode.marker.radius = 1 + scaledSize; // Adjust the radius with base size 10
         }
     }
 
