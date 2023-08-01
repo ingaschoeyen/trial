@@ -30,7 +30,7 @@ async function sort_nodes(){
     let excluded_keywords = ["review", "chapter", "textbook"];
     // create output
     for(ref_id in refs){    
-        let ref_format = {id: ref_id, marker:{radius: 10}, color:"#7becb2"};
+        let ref_format = {id: ref_id, marker:{radius: 1}, color:"#7becb2"};
         formatted_nodes.push(ref_format);
         let keywords = refs[ref_id].keywords;
         for (const keyword of keywords) {
