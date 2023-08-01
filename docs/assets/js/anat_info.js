@@ -1,5 +1,5 @@
 // params
-var filepath="/assets/json/anatomical_structures.json"
+var filepath="assets/json/anatomical_structures.json"
 // read out information
 async function fetch_info(obj_id){
   try {
