@@ -278,7 +278,7 @@
 				]
 			]
 		},
-		"keywords": ["cerebellum", ""]
+		"keywords": ["cerebellum", "purkinje", "interneuron", "microcircuit", "neuronal dynamics"]
 	},	
 	"king2023":{
 		"year":2023,
@@ -4220,7 +4220,7 @@
 					]
 				]
 			},
-			"keywords":["spinal networks", "proprioception", "interneurons", "function", "motor", "neural recording"]
+			"keywords":["spinal networks", "proprioception", "interneuron", "function", "motor", "neural recording"]
 		},
 		"fink2014":{
 			"year":2014,
@@ -5590,7 +5590,7 @@
 					]
 				]
 			},
-			"keywords":["cerebellum", "interneurons", "cytology", "genetic"]
+			"keywords":["cerebellum", "interneuron", "cytology", "genetic"]
 		},
 		"sommer2003":{
 			"year":2003,
@@ -6236,7 +6236,7 @@
 					]
 				]
 			},
-			"keywords":["locomotion", "hierarchichal", "spinal networks", "interneurons", "dynamic"]
+			"keywords":["locomotion", "hierarchichal", "spinal networks", "interneuron", "dynamic"]
 		},
 		"xiao2018":{
 			"year":2018,
@@ -7100,7 +7100,7 @@
 					]
 				]
 			},
-			"keywords": ["reaching", "spinal networks", "proprioception", "interneurons", "genetic"]
+			"keywords": ["reaching", "spinal networks", "proprioception", "interneuron", "genetic"]
 		},
 		"leon2022":{
 			"year":2022,
@@ -7381,7 +7381,7 @@
 					]
 				]
 			},
-			"keywords":["m1", "interneurons", "corticospinal", "tms", "inhibition", "neuronal dynamics"]
+			"keywords":["m1", "interneuron", "corticospinal", "tms", "inhibition", "neuronal dynamics"]
 		},
 		"bagnall2009":{
 			"year":2009,
