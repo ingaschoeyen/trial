@@ -69,14 +69,11 @@ async function load_network(){
         network_div,
         {
             chart: {
-                type: "networkgraph",
-                marginTop: 20,
+                type: 'networkgraph',
+                marginTop: 20
             },
             title:{
-                text: undefined
-            },
-            tooltip: {
-
+                text: 'Network of the Literature'
             },
             plotOptions: {
                 networkgraph: {
@@ -88,13 +85,13 @@ async function load_network(){
                     }
                 }
             },
-            series : {
+            series: [{
                 marker: {
                     radius: 13
                 },
                 dataLabels: {
                     enabled: true,
-                    linkFormat: "",
+                    linkFormat: '',
                     allowOverlap: true,
                     style: {
                         textOutline:false
@@ -102,9 +99,8 @@ async function load_network(){
                 },
                 data: node_pairs,
                 nodes: node_formats
-            }
-        }
-    )
+            }]
+        });
 }
 
 // tooltip: {
