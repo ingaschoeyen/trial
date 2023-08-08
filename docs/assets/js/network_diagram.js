@@ -99,11 +99,11 @@ async function load_network(){
             plotOptions: {
                 networkgraph: {
                     keys: ["from", "to"],
-                    layoutAlgorithm: {
-                        enableSimulation: true,
-                        integration: "verlet",
-                        linkLength: 80
-                    }
+                    // layoutAlgorithm: {
+                    //     enableSimulation: true,
+                    //     integration: "verlet",
+                    //     linkLength: 80
+                    // }
                 }
             },
             series: [{
