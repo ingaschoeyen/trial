@@ -7,15 +7,22 @@ var centerY = parseFloat(viewbox[3]) / 2;
 var matrixGroup = svg.getElementById("map_transform");
 
 function zoom_scalar(scale){
+        
+    var scale = parseFloat(scale);
+    var translateX = (1 -scale) * centerX;
+    var translateY = (1 - scale) * centerY;
+
+
     transformMatrix[0] = scale;
     transformMatrix[3] = scale;
-    transformMatrix[4] += (1 - scale) * centerX;
-    transformMatrix[5] += (1 - scale) * centerY;
+    transformMatrix[4] = translateX;
+    transformMatrix[5] = translateY;
                             
     var newMatrix = "matrix(" +  transformMatrix.join(' ') + ")";
     console.log(newMatrix);
     matrixGroup.setAttributeNS(null, "transform", newMatrix);
 }
+
 function pan(dx, dy) {     	
     transformMatrix[4] += dx;
     transformMatrix[5] += dy;
